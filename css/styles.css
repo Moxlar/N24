@@ -30,7 +30,7 @@ body{
     margin-right: auto;
 
 }
-.main-button{
+.button{
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -40,16 +40,17 @@ body{
     cursor: pointer;
     padding: 13px 20px;
     line-height: normal;
+    border: 0;  
 
 }
 .button-primary{
     background-color: #7296EC;
     color: #fff;
 }
-.button-primary:hover{
-    opacity: 0.8;
+.button:hover{
+opacity: 0.8;
 }
-.button-primary:active{
+.button:active{
     opacity: 0.6;
 }
 .site-header-top{
@@ -58,10 +59,11 @@ body{
     padding-bottom: 30px;
     margin-bottom: 10px;  
 }
-.header-container{
-display: flex;
-align-items: center;
+.button-orange {
+    background-color: #F78B3B;
+    color: #fff;
 }
+
 .site-header-logo{
     background-color: #fff;
     display:flex;
@@ -74,6 +76,10 @@ align-items: center;
 }
 .site-header-logo:active{
     opacity: 0.6;
+}
+.header-container{
+display: flex;
+align-items: center;
 }
 
 /* site-nav */
@@ -185,6 +191,7 @@ align-items: center;
     display: flex;
     flex-wrap: wrap;
     margin-left: -10px;
+    margin-bottom: -10px;
 }
 .news-grid-item {
     width: 393px;
@@ -248,5 +255,20 @@ align-items: center;
     font-size: 12px;
     color: #5E5F61;
 }
-.article-card-source {
+
+ /* Notification_cta */
+
+.notification-cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   background-color: #FFD7BA;
+    margin: 60px 75px;
+    padding: 25px 70px 25px 25px;
+}
+.notification-cta-text {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #000;
 }
