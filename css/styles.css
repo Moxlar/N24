@@ -84,13 +84,13 @@ align-items: center;
 
 /* site-nav */
 .site-nav {
-    border-bottom: 1px solid #d1d1d1;
     padding-bottom: 20px;
     padding-top: 20px;
     font-size: 18px;
     font-weight: 500;
     line-height: 22px; 
-    margin-bottom: 40px; 
+    margin-bottom: 40px;  
+    border-bottom: 1px solid #d1d1d1;
 }
 .site-nav-link:hover{
     color:#7296EC;
@@ -185,6 +185,7 @@ align-items: center;
 .site-hero{
   flex-grow: 1;
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 
 .news-grid {
@@ -275,9 +276,6 @@ align-items: center;
 
 
 /* Global-news */
-.global-news{
-    width: 797px;
-}
 .global-news-heading {
     font-size: 24px;
     font-weight: 500;
@@ -363,3 +361,99 @@ align-items: center;
     display: block;
     width: 100%;
 }
+
+/* side-bar-card */
+.layout-sidebar{
+    width: 393px;
+}
+.side-bar-card {
+    background-color: #f6f6f6;
+    color: #000;
+    padding: 20px;
+    border-radius: 15px;
+}
+.side-bar-card-heading {
+    margin-top: 0;  
+    margin-bottom: 25px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+
+}
+.side-bar-card-list {
+}
+.side-bar-card-item {
+    list-style: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.side-bar-card-item:last-child{
+    padding-bottom: 0;
+}
+.side-bar-card-item:first-child{
+    padding-top: 0;
+}
+.side-bar-card-item:not(:last-child){
+    border-bottom:1px solid #d2d2d2;
+}
+.side-bar-card-title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+.side-bar-card-link{
+    text-decoration: none;
+    display: inline-block;
+    color: #000;  
+
+}
+.side-bar-card-link:hover{
+    color: #7296EC;
+}
+.side-bar-card-link:active{
+    opacity: 0.6;
+}
+
+.side-bar-card-source-time {
+    color: #5E5F61;
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 400;
+}
+
+/* layout */
+.layout-2-1{
+    display: flex;
+    align-items:flex-start;
+}
+.layout-main-2-1{
+   width: 797px; 
+   margin-right: 10px;
+}
+.layout-2-1-sidebar{
+    width: 393px;
+    margin-top: 49px;
+}
+/* .side-bar-card{
+    margin-bottom: 10px;
+} */
+.side-bar-item:not(:last-child){
+    margin-bottom: 10px;
+}
+/* Side-bar-add */
+.side-bar-add{
+    display: flex;
+
+}
+.side-bar-add-img{
+    border-radius: 15px;
+    width: 393px;
+    height: 338px;
+    object-fit: cover;
+}
+
+
+
+
