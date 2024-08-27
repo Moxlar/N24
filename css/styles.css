@@ -465,8 +465,11 @@ align-items: center;
 .side-bar-add-img{
     border-radius: 15px;
     width: 393px;
-    height: 553px;
     object-fit: cover;
+}
+.side-bar-add-img-news-list{
+    height: 553px;
+
 }
 
 
