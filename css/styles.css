@@ -604,7 +604,6 @@ align-items: center;
 /* FORM */
 .form-group:not(:last-child){
     margin-bottom: 10px;
-
 }
 
 .form-field{
@@ -669,7 +668,7 @@ align-items: center;
     margin: 0;
     font-size: 16px;
     line-height: 19px;
-
+    
 }
 
 
